@@ -1,0 +1,120 @@
+*{
+    font-family: "Comic Sans MS";
+    box-sizing: border-box;
+}
+header
+{
+    text-align: center;
+    font-size: 175%;
+    margin-bottom: 60px;
+    
+}
+div
+{
+    width: 31%;
+    background-color: lightgray;
+    border: 3px solid black;
+    float: left;
+    margin-right: 30px;
+    font-weight: bold;
+    text-align: left;
+}
+.first
+{
+    text-align: center;
+    background-color: hotpink;
+    font-weight: bold;
+    font-size: large;
+    position: relative;
+    left: 69.5%;
+    top:-4;
+}
+.second
+{
+    text-align: center;
+    background-color: rgb(207, 30, 24);
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    position: relative;
+    left: 69.5%;
+    top:-4;
+}
+.third
+{
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    font-weight: bold;
+    font-size: large;
+    position: relative;
+    left: 69.5%;
+    top:-4;
+}
+@media (min-width: 992px)
+{
+    div
+    {
+        width: 31%;
+        margin-right: 20px;
+    }
+}
+@media (min-width: 769px) and (max-width: 991px)
+{
+    div
+    {
+        width: 45%;
+    }
+    .first
+    {
+        width: 31.3%;
+    }
+    .second
+    {
+        width: 31.4%;
+    }
+    .third
+    {
+        width: 30.9%;
+    }
+    .three
+    {
+        width: 93.4%;
+    }
+    .one
+    {
+        margin-bottom: 30px;
+
+    }
+    .two
+    {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 769px)
+{
+    div
+    {
+        width: 100%;
+        
+    }
+    .first
+    {
+        width: 31%;
+    }
+    .second
+    {
+        width: 31%;
+    }
+    .third
+    {
+        width: 31%;
+    }
+    .one
+    {
+        margin-bottom: 30px;
+    }
+    .two
+    {
+        margin-bottom: 30px;
+    }
+}
